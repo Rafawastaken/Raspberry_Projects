@@ -1,7 +1,8 @@
 import socket
 import threading
 
-HOST = "127.0.0.1"
+# Substituir por IP do raspberry
+HOST = "ip_servidor"
 PORT = 9999
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

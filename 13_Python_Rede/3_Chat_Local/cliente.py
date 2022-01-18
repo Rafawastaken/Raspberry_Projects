@@ -1,7 +1,7 @@
 import socket
 import threading
 
-HOST = "192.168.1.91"
+HOST = "ip_raspberry"
 PORT = 9999
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
