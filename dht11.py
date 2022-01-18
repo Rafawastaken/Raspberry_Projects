@@ -8,8 +8,8 @@ sensor = adafruit_dht.DHT11(board.D21)
 
 while True:
     try:
-        temp = sensor.temperature
-        humidade = sensor.humidity
+        temp = sensor.temperature  # Lê temperatura
+        humidade = sensor.humidity  # Lê Humidade
         print(f"Temperatura: {temp}*C \nHumidade: {humidade}%")
         sleep(2)  # Delay 2 segundos por medição
 
