@@ -13,6 +13,6 @@ while True:
         print(f"Temperatura: {temp}*C \nHumidade: {humidade}%")
         sleep(2)  # Delay 2 segundos por medição
 
-    except RuntimeError as error:
+    except Exception as e:
         print("Não foi possivel ler dados\nTentar novamente em 3 segundos")
         sleep(3)
